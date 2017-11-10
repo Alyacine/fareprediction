@@ -5,7 +5,6 @@ gc(reset=TRUE)
 # Clean up environment variables
 rm(list = ls())
 
-
 # PARAMETERS #-------------------------------------------------------------
 SEED <- 416
 set.seed(SEED)
@@ -43,7 +42,6 @@ plot_by_revenue_class(data=train,
                       address="Thessaloniki",
                       zoom=11,
                       class="all")
-
 
 #
 cat("\n 6/7 - Load Dbscan Density-Based Clustering results from Python")
